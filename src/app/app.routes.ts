@@ -4,6 +4,10 @@ import { GuideComponent } from './main/guide/guide.component';
 
 export const routes: Routes = [
         {
+          path: "**",
+          redirectTo: "home" 
+        },
+        {
           path: 'tobuy',
           component: ToBuyComponent,
         },
@@ -11,6 +15,7 @@ export const routes: Routes = [
           path: 'guide', // example.com/about
           component: GuideComponent,
         },
+        
         // {
         //   path: 'manage',
         //   component: ManageComponent,

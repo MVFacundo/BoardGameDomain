@@ -1,7 +1,10 @@
 .navbar{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: row;    
     border: solid 1px;
+    justify-content: center;
+}
 
+.item{
+    padding: 1% 1%;
 }
