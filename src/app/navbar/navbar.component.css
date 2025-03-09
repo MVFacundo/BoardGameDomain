@@ -3,8 +3,10 @@
     flex-direction: row;    
     border: solid 1px;
     justify-content: center;
+    background-color: #964B00;
 }
 
 .item{
     padding: 1% 1%;
 }
+
