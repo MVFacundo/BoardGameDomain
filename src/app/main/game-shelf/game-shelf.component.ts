@@ -1,12 +1,19 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { IBoardgame } from '../../shared/models/boardgame.model';
+import { boardgames } from '../../shared/services/mock';
+import { GameCardComponent } from "../game-card/game-card.component";
 
 @Component({
-  selector: 'app-game-shelf',
+  selector: 'game-shelf',
   standalone: true,
-  imports: [],
   templateUrl: './game-shelf.component.html',
-  styleUrl: './game-shelf.component.css'
+  styleUrls: ['./game-shelf.component.css'],
+  imports: [GameCardComponent]
 })
-export class GameShelfComponent {
+export class GameShelfComponent implements OnInit {
+  boardgames?: IBoardgame[];
 
+  ngOnInit(): void {
+    this.boardgames = boardgames;
+  }
 }
