@@ -28,9 +28,9 @@
               }
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "@angular/material/prebuilt-themes/azure-blue.css",
-              "src/styles.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",              
+              "src/styles/base.scss",
+              "src/styles/fonts.scss"
             ],
             "scripts": []
           },
@@ -90,8 +90,8 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "@angular/material/prebuilt-themes/azure-blue.css",
-              "src/styles.css"
+              "src/styles/base.scss",
+              "src/styles/fonts.scss"
             ],
             "scripts": []
           }

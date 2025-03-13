@@ -6,7 +6,7 @@ import { IBoardgame } from '../../shared/models/boardgame.model';
   standalone: true,
   imports: [],
   templateUrl: './game-card.component.html',
-  styleUrl: './game-card.component.css'
+  styleUrl: './game-card.component.scss'
 })
 export class GameCardComponent {
   @Input() game?: IBoardgame;

@@ -17,7 +17,8 @@ export const boardgames: IBoardgame[] = [
         favorite: true,
         description: "A game of trading and building.",
         difficulty: 3,
-        players: 3,
+        minPlayers: 3,
+        maxPlayers: 3,
         duration: 90,
         rules: "catan-rules.pdf",
         bggLink: "https://boardgamegeek.com/boardgame/13/catan"
@@ -30,7 +31,8 @@ export const boardgames: IBoardgame[] = [
         favorite: false,
         description: "A game of storytelling and imagination.",
         difficulty: 1,
-        players: 6,
+        minPlayers: 3,
+        maxPlayers: 3,
         duration: 30,
         rules: "dixit-rules.pdf",
         bggLink: "https://boardgamegeek.com/boardgame/39856/dixit"
@@ -43,7 +45,8 @@ export const boardgames: IBoardgame[] = [
         favorite: true,
         description: "A cooperative game of saving the world.",
         difficulty: 4,
-        players: 4,
+        minPlayers: 3,
+        maxPlayers: 3,
         duration: 45,
         rules: "pandemic-rules.pdf",
         bggLink: "https://boardgamegeek.com/boardgame/30549/pandemic"
@@ -56,7 +59,8 @@ export const boardgames: IBoardgame[] = [
         favorite: false,
         description: "A game of building train routes.",
         difficulty: 2,
-        players: 5,
+        minPlayers: 3,
+        maxPlayers: 3,
         duration: 60,
         rules: "ticket-to-ride-rules.pdf",
         bggLink: "https://boardgamegeek.com/boardgame/9209/ticket-ride"
@@ -69,7 +73,8 @@ export const boardgames: IBoardgame[] = [
         favorite: true,
         description: "A tile-placement game.",
         difficulty: 2,
-        players: 5,
+        minPlayers: 3,
+        maxPlayers: 3,
         duration: 35,
         rules: "carcassonne-rules.pdf",
         bggLink: "https://boardgamegeek.com/boardgame/822/carcassonne"
@@ -82,7 +87,8 @@ export const boardgames: IBoardgame[] = [
         favorite: false,
         description: "A game of word association.",
         difficulty: 1,
-        players: 8,
+        minPlayers: 3,
+        maxPlayers: 3,
         duration: 15,
         rules: "codenames-rules.pdf",
         bggLink: "https://boardgamegeek.com/boardgame/178900/codenames"
@@ -95,7 +101,8 @@ export const boardgames: IBoardgame[] = [
         favorite: true,
         description: "A game of building civilizations.",
         difficulty: 3,
-        players: 7,
+        minPlayers: 3,
+        maxPlayers: 3,
         duration: 30,
         rules: "7-wonders-rules.pdf",
         bggLink: "https://boardgamegeek.com/boardgame/68448/7-wonders"
@@ -108,7 +115,8 @@ export const boardgames: IBoardgame[] = [
         favorite: false,
         description: "A game of tile drafting and pattern building.",
         difficulty: 2,
-        players: 4,
+        minPlayers: 3,
+        maxPlayers: 3,
         duration: 45,
         rules: "azul-rules.pdf",
         bggLink: "https://boardgamegeek.com/boardgame/230802/azul"
@@ -121,7 +129,8 @@ export const boardgames: IBoardgame[] = [
         favorite: true,
         description: "A game of chip-collecting and card development.",
         difficulty: 2,
-        players: 4,
+        minPlayers: 3,
+        maxPlayers: 3,
         duration: 30,
         rules: "splendor-rules.pdf",
         bggLink: "https://boardgamegeek.com/boardgame/148228/splendor"
@@ -134,7 +143,8 @@ export const boardgames: IBoardgame[] = [
         favorite: true,
         description: "A game of transforming the Martian landscape.",
         difficulty: 4,
-        players: 5,
+        minPlayers: 3,
+        maxPlayers: 3,
         duration: 120,
         rules: "terraforming-mars-rules.pdf",
         bggLink: "https://boardgamegeek.com/boardgame/167791/terraforming-mars"
@@ -147,7 +157,8 @@ export const boardgames: IBoardgame[] = [
         favorite: false,
         description: "A game of social deduction.",
         difficulty: 1,
-        players: 10,
+        minPlayers: 3,
+        maxPlayers: 3,
         duration: 30,
         rules: "the-resistance-rules.pdf",
         bggLink: "https://boardgamegeek.com/boardgame/41114/resistance"

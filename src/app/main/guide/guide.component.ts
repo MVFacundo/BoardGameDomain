@@ -6,7 +6,7 @@ import { GameShelfComponent } from "../game-shelf/game-shelf.component";
   standalone: true,
   imports: [GameShelfComponent],
   templateUrl: './guide.component.html',
-  styleUrl: './guide.component.css'
+  styleUrl: './guide.component.scss'
 })
 export class GuideComponent {
 

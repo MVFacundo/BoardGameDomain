@@ -8,7 +8,8 @@ export interface IBoardgame {
     favorite: boolean;
     description: string;
     difficulty: number;
-    players: number;
+    minPlayers: number;
+    maxPlayers: number;
     duration: number;
     rules: string;
     bggLink: string;

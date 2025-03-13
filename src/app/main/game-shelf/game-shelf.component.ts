@@ -7,7 +7,7 @@ import { GameCardComponent } from "../game-card/game-card.component";
   selector: 'game-shelf',
   standalone: true,
   templateUrl: './game-shelf.component.html',
-  styleUrls: ['./game-shelf.component.css'],
+  styleUrls: ['./game-shelf.component.scss'],
   imports: [GameCardComponent]
 })
 export class GameShelfComponent implements OnInit {
